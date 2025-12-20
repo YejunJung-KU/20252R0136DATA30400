@@ -9,13 +9,13 @@
    I made the best [`.csv`] result executing [`final_project_advanced.ipynb`] in Google Colab Tesla T4 GPU environment.
    It may create different output if you reproduce my code using other environment such as cmd.
 
-1. Set the working directory to the desktop.
+1. Set the working directory.
 
     ```bash
-    cd %USERPROFILE%\Desktop
+    cd %USERPROFILE%
     ```
 
-2. Clone my repository
+2. Clone my repository.
 
     ```bash
     git clone https://github.com/YejunJung-KU/20252R0136DATA30400.git
@@ -48,7 +48,7 @@
 1. [`final_project_advanced.ipynb`](./final_project_advanced.ipynb) - Full pipeline with several advanced strategies.
 - Silver labels generation
 - GCN enhanced classifier
-- Fine-tuning BERT & label/document enbeddings
+- Fine-tuning BERT & label/document embeddings
 - 250 LLM API calls
 - Self-training: pseudo-label generation
 - Consistency regularization
@@ -59,7 +59,7 @@
 ## 3. Intermediate codes (No need to reproduce. Just for reference.)
 
 1. [`final_project_baseline.ipynb`](./final_project_baseline.ipynb) - Basic pipeline without any advanced strategies. Only silver labels generation + GCN enhanced classifier.
-2. [`generate_embeddings.ipynb`](./generate_embeddings.ipynb) - Generate label/document enbeddings using BERT.
+2. [`generate_embeddings.ipynb`](./generate_embeddings.ipynb) - Generate label/document embeddings using BERT.
 3. [`generate_embeddings_fine_tuning.ipynb`](./generate_embeddings_fine_tuning.ipynb) - Generate label/document embeddings using BERT (Fine-tuning).
 4. [`llm_api_calls_250.ipynb`](./llm_api_calls_250.ipynb) - Generate high-confidence labels using 250 LLM API calls.
 
