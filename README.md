@@ -12,7 +12,7 @@
 1. Set the working directory to the desktop.
 
     ```bash
-    cd C:\Users\user\Desktop
+    cd C:\Users
     ```
 
 2. Clone my repository
@@ -24,7 +24,7 @@
 3. Move the working directory to the cloned folder.
 
     ```bash
-    cd C:\Users\user\Desktop\20252R0136DATA30400
+    cd C:\Users\20252R0136DATA30400
     ```
 
 4. Install the libraries required for execution.
