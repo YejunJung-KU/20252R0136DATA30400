@@ -5,9 +5,29 @@
 
 ## 1. How to reproduce my main code
 
-0. It is assumed that basic tools such as Git and Python are installed and run at a cmd in Windows.
-   I made the best [`.csv`] result executing [`final_project_advanced.ipynb`] in Google Colab Tesla T4 GPU environment.
-   It may create different output if you reproduce my code using other environment such as cmd.
+**Notice**
+
+I made the best [`.csv`] result executing [`final_project_advanced.ipynb`] in Google Colab Tesla T4 GPU environment.
+It may create different output if you reproduce my code using other environment such as cmd.
+
+0. Environment
+
+   The following instructions assume that:
+
+   - **Git** is installed on your system.
+   - **Python 3.13** (with **pip**) is installed and available from the command line.
+   - All commands are executed on **Windows** using **Command Prompt (cmd)**, not PowerShell.
+
+   First, check your Python version:
+
+   ```bash
+   python --version
+   ```
+
+   If your version is lower than 3.13 (e.g., Python 3.9, 3.10, 3.11, etc.), please install Python 3.13 from either:
+   the official Python website or the Microsoft Store (search for “Python 3.13”).
+
+   After installing Python 3.13, open a new Command Prompt window and run the commands below.
 
 1. Set the working directory.
 
