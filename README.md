@@ -39,6 +39,9 @@
     python final_project_2021250031.py
     ```
 
+Now you can open the folder corresponding to [`C:\%USERPROFILE%\20252R0136DATA30400\Amazon_products`] path to obtain the final result file named [`2021250031_final.csv`]
+
+
 
 ## 2. Main code
 
